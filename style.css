@@ -1,0 +1,45 @@
+<!-- style.css -->
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  header {
+    background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2 {
+    color: #222;
+  }
+
+  a {
+    color: #2575fc;
+  }
+</style>
